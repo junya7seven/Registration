@@ -1,0 +1,320 @@
+2024-07-23 15:28:09.7425|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 15:28:09.7425|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 15:28:09.7425|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 15:28:09.7425|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 15:28:09.7425|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 15:31:49.3699|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Npgsql.PostgresException (0x80004005): 42703: столбец "user_date" не существует
+
+POSITION: 148
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at DataSource.UserRepository.Insert(User model) in C:\Users\junya\source\repos\UserRegistration\DataSource\UserRepository.cs:line 30
+   at Service.UserService.RegisterUser(RegisterModel model) in C:\Users\junya\source\repos\UserRegistration\Service\UserService.cs:line 50
+   at UserRegistration.Controllers.AccountController.Register(RegisterModel model) in C:\Users\junya\source\repos\UserRegistration\UserRegistration\Controllers\AccountController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42703
+    MessageText: столбец "user_date" не существует
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    Position: 148
+    File: parse_relation.c
+    Line: 3706
+    Routine: errorMissingColumn
+2024-07-23 15:31:49.3699|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Npgsql.PostgresException (0x80004005): 42703: столбец "user_date" не существует
+
+POSITION: 148
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at DataSource.UserRepository.Insert(User model) in C:\Users\junya\source\repos\UserRegistration\DataSource\UserRepository.cs:line 30
+   at Service.UserService.RegisterUser(RegisterModel model) in C:\Users\junya\source\repos\UserRegistration\Service\UserService.cs:line 50
+   at UserRegistration.Controllers.AccountController.Register(RegisterModel model) in C:\Users\junya\source\repos\UserRegistration\UserRegistration\Controllers\AccountController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42703
+    MessageText: столбец "user_date" не существует
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    Position: 148
+    File: parse_relation.c
+    Line: 3706
+    Routine: errorMissingColumn
+2024-07-23 15:36:59.6855|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 15:36:59.6937|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 15:36:59.6937|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 15:36:59.6937|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 15:36:59.6937|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 15:38:48.5166|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 15:38:48.5236|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 15:38:48.5236|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 15:38:48.5236|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 15:38:48.5236|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 18:32:46.8567|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 18:32:46.8643|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 18:32:46.8643|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 18:32:46.8643|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 18:32:46.8643|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 18:34:20.7033|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 18:34:20.7111|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 18:34:20.7111|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 18:34:20.7111|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 18:34:20.7111|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 18:36:44.3786|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 18:36:44.3960|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 18:36:44.3960|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 18:36:44.3960|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 18:36:44.3960|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 18:39:04.4754|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 18:39:04.4754|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 18:39:04.4754|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 18:39:04.4754|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 18:39:04.4754|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 18:39:28.8295|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 18:39:28.8347|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 18:39:28.8347|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 18:39:28.8347|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 18:39:28.8347|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 18:39:41.1860|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 18:39:41.1932|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 18:39:41.1932|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 18:39:41.1932|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 18:39:41.1932|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 21:58:05.1007|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 21:58:05.1007|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 21:58:05.1007|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 21:58:05.1007|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 21:58:05.1007|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 22:44:54.8303|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 22:44:54.8353|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 22:44:54.8353|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 22:44:54.8353|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 22:44:54.8353|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 22:49:00.0682|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 22:49:00.0682|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 22:49:00.0682|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 22:49:00.0838|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 22:49:00.0838|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 22:52:46.1027|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 22:52:46.1027|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 22:52:46.1193|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 22:52:46.1193|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 22:52:46.1193|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 22:52:50.1024|3|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'index' was not found. Searched locations: /Views/Account/index.cshtml, /Views/Shared/index.cshtml 
+2024-07-23 22:52:50.1024|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'index' was not found. The following locations were searched:
+/Views/Account/index.cshtml
+/Views/Shared/index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-23 22:53:58.9486|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 22:53:58.9590|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 22:53:58.9590|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 22:53:58.9590|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 22:53:58.9590|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 22:54:01.1303|3|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'index' was not found. Searched locations: /Views/Account/index.cshtml, /Views/Shared/index.cshtml 
+2024-07-23 22:54:01.1520|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'index' was not found. The following locations were searched:
+/Views/Account/index.cshtml
+/Views/Shared/index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-23 23:05:24.0933|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 23:05:24.0994|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 23:05:24.0994|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 23:05:24.0994|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 23:05:24.0994|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 23:05:40.0612|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 23:05:40.1421|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 23:05:40.1458|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 23:05:40.1613|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 23:05:40.1613|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 23:06:45.4512|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 23:06:45.4586|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 23:06:45.4586|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 23:06:45.4586|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 23:06:45.4586|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 23:06:49.9897|3|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'index' was not found. Searched locations: /Views/Account/index.cshtml, /Views/Shared/index.cshtml 
+2024-07-23 23:06:50.0100|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'index' was not found. The following locations were searched:
+/Views/Account/index.cshtml
+/Views/Shared/index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-23 23:20:55.4513|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 23:20:55.4599|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 23:20:55.4599|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 23:20:55.4599|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 23:20:55.4599|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 23:22:39.4238|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 23:22:39.4306|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 23:22:39.4306|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 23:22:39.4306|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 23:22:39.4306|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 23:22:41.9121|3|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'index' was not found. Searched locations: /Views/Account/index.cshtml, /Views/Shared/index.cshtml 
+2024-07-23 23:22:41.9310|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'index' was not found. The following locations were searched:
+/Views/Account/index.cshtml
+/Views/Shared/index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-23 23:23:49.4585|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 23:23:49.4656|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 23:23:49.4656|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 23:23:49.4736|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 23:23:49.4736|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 23:23:51.0521|3|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'index' was not found. Searched locations: /Views/Account/index.cshtml, /Views/Shared/index.cshtml 
+2024-07-23 23:23:51.0521|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'index' was not found. The following locations were searched:
+/Views/Account/index.cshtml
+/Views/Shared/index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-23 23:26:08.7247|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 23:26:08.7247|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 23:26:08.7247|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 23:26:08.7408|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 23:26:08.7408|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-23 23:26:10.0362|3|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'index' was not found. Searched locations: /Views/Account/index.cshtml, /Views/Shared/index.cshtml 
+2024-07-23 23:26:10.0362|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'index' was not found. The following locations were searched:
+/Views/Account/index.cshtml
+/Views/Shared/index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-23 23:27:39.2658|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-23 23:27:39.2719|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-23 23:27:39.2719|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-23 23:27:39.2719|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-23 23:27:39.2719|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 

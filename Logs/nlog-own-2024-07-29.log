@@ -1,0 +1,392 @@
+2024-07-29 23:17:28.5811|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:17:32.5435|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:17:32.5497|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:17:32.5497|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:17:32.5497|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:17:32.5497|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:17:33.5836|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:17:33.7010|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:17:33.7023|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:17:46.6437|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:17:46.7184|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:17:46.7184|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:18:02.5969|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:18:03.7018|0|INFO|Service.UserService|User: junya already exist |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:18:03.7018|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:18:03.7018|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:30:28.5615|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:30:29.6061|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:30:29.6129|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:30:29.6129|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:30:29.6129|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:30:29.6129|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:30:30.1595|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:30:30.2185|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:30:30.2185|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:30:31.3454|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:30:31.4811|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:30:31.4811|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:30:51.6097|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:30:52.1585|0|INFO|DataSource.UserRepository|User: junyadcszfsd has been added |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:30:52.1585|0|INFO|Service.UserService|User: junyadcszfsd registered successfully |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:30:52.1714|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:30:52.1714|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:30:52.1714|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:31:20.7357|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:31:20.8028|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at Service.UserService.AuthenticateUser(LoginModel model) in C:\Users\junya\source\repos\UserRegistration\Service\UserService.cs:line 64
+   at UserRegistration.Controllers.HomeController.Login(LoginModel model) in C:\Users\junya\source\repos\UserRegistration\UserRegistration\Controllers\HomeController.cs:line 74
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Home/Login|action: Login
+2024-07-29 23:31:24.3629|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:31:24.3629|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:31:24.3629|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:31:27.3312|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:31:27.3852|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at Service.UserService.AuthenticateUser(LoginModel model) in C:\Users\junya\source\repos\UserRegistration\Service\UserService.cs:line 64
+   at UserRegistration.Controllers.HomeController.Login(LoginModel model) in C:\Users\junya\source\repos\UserRegistration\UserRegistration\Controllers\HomeController.cs:line 74
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Home/Login|action: Login
+2024-07-29 23:31:34.2396|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:31:34.2396|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:31:34.2396|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:31:43.0367|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:32:23.6458|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at Service.UserService.AuthenticateUser(LoginModel model) in C:\Users\junya\source\repos\UserRegistration\Service\UserService.cs:line 64
+   at UserRegistration.Controllers.HomeController.Login(LoginModel model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Home/Login|action: Login
+2024-07-29 23:32:29.1926|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:32:29.1926|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:32:29.1926|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:33:36.0303|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:33:37.1224|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:33:37.1290|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:33:37.1290|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:33:37.1290|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:33:37.1290|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:33:38.0491|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:33:38.1085|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:33:38.1085|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:33:39.1266|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:33:39.1659|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:33:39.1659|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:33:40.0156|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:10.3114|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:35:11.3658|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:35:11.3906|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:35:11.4052|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:35:11.4052|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:35:11.4052|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:35:12.1553|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:35:12.2226|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:35:12.2226|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:35:15.2472|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:35:15.2531|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:35:15.2531|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:35:17.2886|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:17.3242|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:17.3242|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:18.3786|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:18.4382|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:18.4382|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:23.5735|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:23.5735|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:23.5735|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:25.2258|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:25.2258|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:25.2258|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:29.5015|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:29.5015|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:29.5015|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:32.3266|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:32.3266|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:32.3266|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:34.1627|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:34.1627|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:34.1627|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:34.8803|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:34.8803|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:34.8803|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:35.6984|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:35.7024|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:35.7024|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:37.2150|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:37.2150|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:37.2167|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:37.9210|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:39.3949|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:39.3949|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:39.3949|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Login|action: Login
+2024-07-29 23:35:40.2557|1|DEBUG|UserRegistration.Controllers.HomeController|NLog injected into InfoController |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:40.2557|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:35:40.2557|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home/Register|action: Register
+2024-07-29 23:43:00.3117|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:43:01.4218|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:43:01.4218|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:43:01.4218|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:43:01.4218|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:43:01.4364|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:43:02.0917|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:43:02.0917|3|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Index' was not found. Searched locations: /Views/Account/Index.cshtml, /Views/Shared/Index.cshtml |url: https://localhost/|action: Index
+2024-07-29 23:43:02.1088|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Account/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/|action: Index
+2024-07-29 23:43:21.1866|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:43:22.3126|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:43:22.3260|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:43:22.3260|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:43:22.3260|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:43:22.3260|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:43:22.8360|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:43:22.9091|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:43:22.9091|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:43:24.4076|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:43:24.4418|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:43:24.4418|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:43:25.6009|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Register|action: Register
+2024-07-29 23:43:25.6515|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Register|action: Register
+2024-07-29 23:43:25.6515|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Register|action: Register
+2024-07-29 23:43:26.7161|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:43:26.7186|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:43:26.7186|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:43:29.0420|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:43:29.0420|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:43:29.0420|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:43:45.8890|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:43:46.8024|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:43:46.8121|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:43:46.8121|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:43:46.8121|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:43:46.8121|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:43:47.9667|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:43:48.0351|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:43:48.0351|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:44:03.5781|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:44:04.6557|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:44:04.6557|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:44:04.6557|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:44:04.6557|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:44:04.6706|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:44:05.5019|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:44:05.5795|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:44:05.5795|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:44:06.5349|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:44:06.5755|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:44:06.5755|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:44:07.2660|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:48:16.9206|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:48:18.0047|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:48:18.0155|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:48:18.0155|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:48:18.0155|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:48:18.0155|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:48:18.8913|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:48:18.9548|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:48:18.9548|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:48:23.3668|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:48:23.3982|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:48:23.3982|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:48:26.4377|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:48:41.3963|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:48:41.3963|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:48:41.3963|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:48:47.2923|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:48:47.2957|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:48:47.2957|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:48:48.3346|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:14.2557|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:50:15.4375|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:50:15.4375|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:50:15.4375|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:50:15.4375|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:50:15.4511|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:50:16.5452|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:50:16.6135|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:50:16.6135|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:50:17.5515|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:17.5849|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:17.5849|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:18.5940|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:30.8402|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:30.8435|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:30.8435|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:32.5164|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Register|action: Register
+2024-07-29 23:50:32.5617|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Register|action: Register
+2024-07-29 23:50:32.5617|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Register|action: Register
+2024-07-29 23:50:34.6292|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:34.6292|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:34.6292|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:35.3910|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:48.9706|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:50:50.1416|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:50:50.1416|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:50:50.1547|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:50:50.1547|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:50:50.1547|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:50:51.0612|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:50:51.1300|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:50:51.1300|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:50:51.9676|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:51.9975|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:51.9975|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:52.6767|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:57.3801|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:57.3801|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:50:57.3801|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:52:05.1812|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:52:06.1426|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:52:06.1426|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:52:06.1426|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:52:06.1426|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:52:06.1548|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:52:06.6134|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:52:06.6737|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:52:06.6737|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:52:09.2403|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:52:09.2745|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:52:09.2745|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:52:10.2654|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:52:26.0857|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:52:26.0857|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:52:26.0857|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:55:12.1703|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:55:13.2038|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:55:13.2038|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:55:13.2175|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:55:13.2175|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:55:13.2175|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:55:13.9279|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:55:13.9875|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:55:13.9875|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:55:16.5446|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:55:16.5737|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:55:16.5737|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:55:17.2490|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:55:55.4997|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:55:56.7105|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:55:56.7168|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:55:56.7168|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:55:56.7168|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:55:56.7168|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:55:57.2725|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:55:57.3396|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:55:57.3396|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:56:00.6372|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:56:00.6675|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:56:00.6675|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:56:01.4991|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:56:34.5074|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:56:35.5912|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:56:35.5985|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:56:35.5985|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:56:35.5985|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:56:35.5985|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:56:36.4203|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:56:36.4904|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:56:36.4904|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:56:38.3055|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:56:38.3346|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:56:38.3346|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:56:39.0941|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:56:40.6123|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:56:40.6123|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:56:40.6123|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:57:03.6899|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:57:04.9595|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:57:04.9727|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:57:04.9727|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:57:04.9727|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:57:04.9830|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:57:05.6082|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:57:05.6739|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:57:05.6739|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:57:08.6461|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:57:08.6784|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:57:08.6784|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:57:09.9686|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:58:44.8472|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-07-29 23:58:46.0906|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-07-29 23:58:46.0976|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-07-29 23:58:46.0976|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-29 23:58:46.0976|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-29 23:58:46.0976|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-07-29 23:58:47.0449|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-07-29 23:58:47.1118|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-07-29 23:58:47.1118|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-07-29 23:58:51.5947|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:58:51.6235|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:58:51.6239|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:58:52.5767|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:58:54.7101|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:58:54.7101|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:58:54.7101|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-07-29 23:58:55.6356|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login

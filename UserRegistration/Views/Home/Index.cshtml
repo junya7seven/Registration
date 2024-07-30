@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Welcome to the Home Page</h2>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <p>Hello, @ViewData["UserName"]! You are logged in.</p>
+}
+else
+{
+    <p>Welcome, Guest! Please <a asp-controller="Account" asp-action="Login">login</a> or <a asp-controller="Account" asp-action="Register">register</a>.</p>
+}
+
+<button>
+    <a class="nav-link text-dark" asp-controller="Account" asp-action="Index">Index</a>
+</button>

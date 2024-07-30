@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Welcome to the Home Page</h2>
+
+<button>
+    <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+</button>
+
+<button>
+    <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Registration</a>
+</button>
+
+<form asp-controller="Account" asp-action="LogOut" method="post" style="display:inline;">
+    <button type="submit" class="btn btn-danger">Log Out</button>
+</form>
+
+<button>
+    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Index</a>
+</button>

@@ -1,0 +1,40 @@
+﻿
+@model Service.Models.LoginModel
+
+@{
+    ViewData["Title"] = "Login Page";
+}
+
+<h2>Login Page</h2>
+
+<form asp-controller="Account" asp-action="Login" method="post">
+    <div>
+        <label asp-for="Login"></label>
+        <input asp-for="Login" class="form-control" />
+        <span asp-validation-for="Login" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+    <button><a class="btn btn-link" asp-area="" asp-controller="Account" asp-action="Register">Don't have an account? Register here</a></button>
+</form>
+@if (ViewData.ModelState.ErrorCount > 0)
+{
+    <div class="validation-summary-errors text-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

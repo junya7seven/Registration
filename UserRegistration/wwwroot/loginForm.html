@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Авторизация</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section class="main-form">
+            <form action="/Account/login" method="post" class="main-form-form">
+                <span class="main-form-form-title">Login</span>
+                <ul class="main-form-ul">
+                    <li class="main-form-item">
+                        <label for="Login">
+                            <span class="main-form-item-title">Логин:</span>
+                            <input type="text" name="Login" id="Login" placeholder="логин" required>
+                        </label>
+                    </li>
+                    <li class="main-form-item">
+                        <label for="Password">
+                            <span class="main-form-item-title">Пароль:</span>
+                            <input type="password" name="Password" id="Password" placeholder="пароль" required>
+                        </label>
+                    </li>
+                    <li class="main-form-item">
+                        <button type="submit" class="btn btn-login">Войти</button>
+                    </li>
+                    <li class="main-form-item">
+                        <a href="/Account/register" class="btn btn-reg">Регистрация</a>
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

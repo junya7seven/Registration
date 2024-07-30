@@ -1,0 +1,49 @@
+2024-07-27 00:02:43.5143|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-27 00:02:43.5284|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-27 00:02:43.5341|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-27 00:02:43.5341|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-27 00:02:43.5341|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-27 00:02:44.0836|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:02:44.0836|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:02:45.1699|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:02:45.1699|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:03:00.8876|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:03:00.8876|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:05:02.6652|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-27 00:05:02.6748|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-27 00:05:02.6748|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-27 00:05:02.6748|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-27 00:05:02.6748|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-27 00:05:03.3720|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:05:03.3720|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:05:04.8094|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:05:04.8094|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:05:07.1060|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:05:07.1060|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:05:10.7760|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:05:10.7760|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:05:12.9470|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:05:12.9470|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:26:54.8910|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 
+2024-07-27 00:26:54.8989|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 
+2024-07-27 00:26:54.8989|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-27 00:26:54.8989|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-27 00:26:54.8989|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration 
+2024-07-27 00:26:55.6486|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:26:55.6486|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:26:56.7852|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:26:56.7852|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:26:59.3195|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:26:59.3195|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:27:01.8731|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:27:01.8731|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:27:12.9427|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:27:12.9427|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:27:45.4424|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:27:45.4424|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:27:47.2096|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:27:47.2096|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:27:47.9689|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:27:47.9689|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+2024-07-27 00:27:50.3124|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  
+2024-07-27 00:27:50.3124|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 

@@ -1,0 +1,18 @@
+# .NET
+**/bin/
+**/obj/
+**/packages/
+# Rider
+.idea/
+# Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.sln
+*.csproj.user
+*.csproj.DotSettings
+# Backup & Deployment
+_backup/
+_backup/
+.bak
