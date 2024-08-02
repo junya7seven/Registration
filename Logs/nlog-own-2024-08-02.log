@@ -1,0 +1,309 @@
+2024-08-02 21:17:07.0408|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-08-02 21:17:11.1987|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-08-02 21:17:11.1987|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-08-02 21:17:11.1987|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-08-02 21:17:11.2121|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-08-02 21:17:11.2121|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-08-02 21:17:12.0721|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 21:17:12.2348|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 21:17:12.2348|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 21:17:13.8719|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-08-02 21:17:13.9110|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-08-02 21:17:13.9110|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-08-02 21:17:15.4780|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-08-02 21:17:16.5320|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home|action: Index
+2024-08-02 21:17:16.5320|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home|action: Index
+2024-08-02 21:17:21.4026|3|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Rename' was not found. Searched locations: /Views/Home/Rename.cshtml, /Views/Shared/Rename.cshtml |url: https://localhost/Home/Rename|action: Rename
+2024-08-02 21:17:21.4026|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Rename' was not found. The following locations were searched:
+/Views/Home/Rename.cshtml
+/Views/Shared/Rename.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Home/Rename|action: Rename
+2024-08-02 21:17:23.3843|3|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'ChangePassword' was not found. Searched locations: /Views/Home/ChangePassword.cshtml, /Views/Shared/ChangePassword.cshtml |url: https://localhost/Home/ChangePassword|action: ChangePassword
+2024-08-02 21:17:23.3863|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'ChangePassword' was not found. The following locations were searched:
+/Views/Home/ChangePassword.cshtml
+/Views/Shared/ChangePassword.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Home/ChangePassword|action: ChangePassword
+2024-08-02 21:17:25.8273|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 21:17:25.8273|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 21:17:25.8273|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 21:17:26.7861|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home|action: Index
+2024-08-02 21:17:26.7861|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home|action: Index
+2024-08-02 21:17:28.8974|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 21:17:28.8974|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 21:17:28.8974|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 21:17:29.8187|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-08-02 21:17:29.8187|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-08-02 21:17:29.8187|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-08-02 21:17:31.4777|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 21:17:31.4777|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 21:17:31.4777|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 21:17:32.2472|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Register|action: Register
+2024-08-02 21:17:32.2914|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Register|action: Register
+2024-08-02 21:17:32.2914|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Register|action: Register
+2024-08-02 21:17:34.0303|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Register|action: Register
+2024-08-02 21:17:44.4072|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-08-02 21:17:44.4072|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-08-02 21:17:44.4072|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-08-02 21:17:45.7549|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-08-02 21:17:45.8955|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home|action: Index
+2024-08-02 21:17:45.8955|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home|action: Index
+2024-08-02 21:18:42.4056|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-08-02 21:18:43.3007|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-08-02 21:18:43.3095|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-08-02 21:18:43.3095|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-08-02 21:18:43.3095|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-08-02 21:18:43.3095|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-08-02 21:18:43.7332|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 21:18:43.8144|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 21:18:43.8144|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 21:25:37.9626|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-08-02 21:25:39.2499|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-08-02 21:25:39.2499|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-08-02 21:25:39.2604|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-08-02 21:25:39.2604|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-08-02 21:25:39.2604|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-08-02 21:25:39.8427|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 21:25:39.9014|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 21:25:39.9014|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 21:25:42.9778|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 21:25:42.9778|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 21:25:42.9778|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 21:25:44.0341|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Register|action: Register
+2024-08-02 21:25:44.0896|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Register|action: Register
+2024-08-02 21:25:44.0896|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Register|action: Register
+2024-08-02 21:26:14.5726|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-08-02 21:26:15.6155|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-08-02 21:26:15.6230|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-08-02 21:26:15.6230|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-08-02 21:26:15.6230|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-08-02 21:26:15.6230|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-08-02 21:26:16.3462|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 21:26:16.4083|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 21:26:16.4083|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 21:26:18.1272|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Register|action: Register
+2024-08-02 21:26:18.1896|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Register|action: Register
+2024-08-02 21:26:18.1896|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Register|action: Register
+2024-08-02 21:31:09.3697|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-08-02 21:31:10.4788|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-08-02 21:31:10.4788|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-08-02 21:31:10.4788|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-08-02 21:31:10.4788|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-08-02 21:31:10.4788|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-08-02 21:31:11.1655|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 21:31:11.2202|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 21:31:11.2202|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 21:31:13.3022|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home|action: Index
+2024-08-02 21:31:13.3022|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home|action: Index
+2024-08-02 21:43:58.5138|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-08-02 21:43:59.6334|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-08-02 21:43:59.6428|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-08-02 21:43:59.6517|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-08-02 21:43:59.6517|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-08-02 21:43:59.6517|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-08-02 21:44:00.5719|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 21:44:00.6292|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 21:44:00.6292|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 21:44:02.4727|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home|action: Index
+2024-08-02 21:44:02.4727|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home|action: Index
+2024-08-02 21:50:27.7800|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-08-02 21:50:28.9746|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-08-02 21:50:28.9803|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-08-02 21:50:28.9803|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-08-02 21:50:28.9803|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-08-02 21:50:28.9803|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-08-02 21:50:29.6810|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 21:50:29.7324|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 21:50:29.7324|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 21:50:30.8814|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home|action: Index
+2024-08-02 21:50:30.8814|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home|action: Index
+2024-08-02 21:50:36.8493|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Home|action: Index
+2024-08-02 21:50:36.8493|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Home|action: Index
+2024-08-02 23:32:37.2125|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-08-02 23:32:38.1332|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-08-02 23:32:38.1384|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-08-02 23:32:38.1384|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-08-02 23:32:38.1384|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-08-02 23:32:38.1384|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-08-02 23:32:38.6812|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 23:32:38.7415|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 23:32:38.7415|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 23:32:40.6812|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Service.IUserChangeService' while attempting to activate 'UserRegistration.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Home|action: Index
+2024-08-02 23:32:44.8955|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 23:32:44.8955|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 23:32:44.8955|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 23:32:46.1803|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-08-02 23:32:46.2032|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-08-02 23:32:46.2032|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-08-02 23:32:48.7812|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-08-02 23:32:49.4103|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Service.IUserChangeService' while attempting to activate 'UserRegistration.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Home|action: Index
+2024-08-02 23:33:12.3316|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-08-02 23:33:13.6179|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-08-02 23:33:13.6345|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-08-02 23:33:13.6345|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-08-02 23:33:13.6345|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-08-02 23:33:13.6493|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-08-02 23:33:22.5884|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 23:33:23.7307|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 23:33:23.7307|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 23:33:25.9948|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Service.IUserChangeService' while attempting to activate 'UserRegistration.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Home|action: Index
+2024-08-02 23:33:44.8302|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 23:33:55.0725|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-08-02 23:33:56.4260|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-08-02 23:33:56.4370|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-08-02 23:33:56.4370|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-08-02 23:33:56.4370|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-08-02 23:33:56.4370|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-08-02 23:34:01.5411|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 23:34:03.0259|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 23:34:03.0259|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 23:34:07.8534|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-08-02 23:34:09.4107|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/Account/Login|action: Login
+2024-08-02 23:34:09.4107|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/Login|action: Login
+2024-08-02 23:34:13.8734|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/Account/Login|action: Login
+2024-08-02 23:34:14.7234|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Service.IUserChangeService' while attempting to activate 'UserRegistration.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method28(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Home|action: Index
+2024-08-02 23:45:27.9159|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-08-02 23:45:28.5799|0|ERROR|UserRegistration.Program|Stopped program because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Service.IUserChangeService Lifetime: Scoped ImplementationType: Service.UserChangeService': Unable to resolve service for type 'DataSource.DataRequest.Interface.IChangeUserRepository' while attempting to activate 'Service.UserChangeService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'DataSource.DataRequest.Interface.IChangeUserRepository' while attempting to activate 'Service.UserChangeService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)|url: |action: 
+2024-08-02 23:45:46.3445|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-08-02 23:45:47.3118|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7087 |url: |action: 
+2024-08-02 23:45:47.3118|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141 |url: |action: 
+2024-08-02 23:45:47.3118|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-08-02 23:45:47.3118|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-08-02 23:45:47.3215|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\junya\source\repos\UserRegistration\UserRegistration |url: |action: 
+2024-08-02 23:45:48.0721|1|DEBUG|UserRegistration.Controllers.AccountController|NLog injected into InfoController |url: https://localhost/|action: Index
+2024-08-02 23:45:48.1442|3|WARN|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Unable to configure Browser Link script injection on the response.  |url: https://localhost/|action: Index
+2024-08-02 23:45:48.1442|3|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/|action: Index
+2024-08-02 23:45:48.9631|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Service.IUserChangeService' while attempting to activate 'UserRegistration.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Home|action: Index
+2024-08-02 23:46:18.7758|0|DEBUG|UserRegistration.Program|init main |url: |action: 
+2024-08-02 23:46:19.3042|0|ERROR|UserRegistration.Program|Stopped program because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Service.IUserChangeService Lifetime: Scoped ImplementationType: Service.UserChangeService': Unable to resolve service for type 'DataSource.DataRequest.Interface.IChangeUserRepository' while attempting to activate 'Service.UserChangeService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'DataSource.DataRequest.Interface.IChangeUserRepository' while attempting to activate 'Service.UserChangeService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)|url: |action: 

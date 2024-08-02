@@ -1,5 +1,6 @@
 using System.Text;
 using DataSource;
+using DataSource.DataRequest;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -34,7 +35,11 @@ try
     builder.Services.AddScoped<IUserRepository>(x =>
         new UserRepository(connectionString, x.GetRequiredService<ILogger<UserRepository>>()));
 
+    builder.Services.AddScoped<IUserChangeService, UserChangeService>();
+
+
     builder.Services.AddScoped<IUserService, UserService>();
+
 
     var key = Encoding.ASCII.GetBytes(configuration["Jwt:Key"]);
 

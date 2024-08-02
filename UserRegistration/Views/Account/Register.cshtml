@@ -56,7 +56,7 @@
 
     <div>
         <label asp-for="Country"></label>
-        <input asp-for="Country"  class="form-control" />
+        <input asp-for="Country" class="form-control" />
         <span asp-validation-for="Country" class="text-danger"></span>
     </div>
 
@@ -68,13 +68,13 @@
 
     <div>
         <label asp-for="Phone"></label>
-        <input asp-for="Phone" type="number class="form-control" />
+        <input asp-for="Phone" type="text" class="form-control" />
         <span asp-validation-for="Phone" class="text-danger"></span>
     </div>
 
     <div>
-        <label asp-for="Gender" class="text-danger"></label>
-        <select asp-for="Gender" name="Gender">
+        <label asp-for="Gender"></label>
+        <select asp-for="Gender" class="form-control">
             <option value="Male">Male</option>
             <option value="Female">Female</option>
             <option value="Other">Other</option>
@@ -84,8 +84,11 @@
 
     <button type="submit" class="btn btn-primary">Register</button>
 
-    <button><a class="btn btn-link" asp-area="" asp-controller="Account" asp-action="Login">Have an account? Login here</a></button>
+    <button class="btn btn-link">
+        <a class="text-dark" asp-area="" asp-controller="Account" asp-action="Login">Have an account? Login here</a>
+    </button>
 </form>
+
 @if (ViewData.ModelState.ErrorCount > 0)
 {
     <div class="validation-summary-errors text-danger">

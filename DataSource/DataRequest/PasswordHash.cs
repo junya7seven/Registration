@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataSource
+namespace DataSource.DataRequest
 {
     public static class PasswordHash
     {

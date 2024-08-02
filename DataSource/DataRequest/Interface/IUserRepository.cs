@@ -10,11 +10,9 @@ namespace DataSource
 
         public Task Delete(User model);
 
-        public Task Update();
-
         public Task<bool> SearchByLoginAndValues(User model);
+
         public Task<User> SearchByLogin(string login);
 
-        public Task<IEnumerable<User>> GetAll();
     }
 }

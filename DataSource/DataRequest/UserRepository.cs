@@ -6,12 +6,12 @@ using System;
 using System.Data;
 using System.Runtime.CompilerServices;
 
-namespace DataSource
+namespace DataSource.DataRequest
 {
     public class UserRepository : IUserRepository
     {
-        private readonly string _connectionString;
-        private readonly ILogger<UserRepository> _logger;
+        private protected readonly string _connectionString;
+        private protected readonly ILogger<UserRepository> _logger;
         public UserRepository(string connectionString, ILogger<UserRepository> logger)
         {
             _connectionString = connectionString;
@@ -22,8 +22,8 @@ namespace DataSource
         {
             try
             {
-                
-                using(var connection = new NpgsqlConnection(_connectionString))
+
+                using (var connection = new NpgsqlConnection(_connectionString))
                 {
                     await connection.OpenAsync();
                     var sql = @"INSERT INTO userinfo (login, hashpassword, email, age, country, city, phone, gender, role, user_date) VALUES (@Login, @HashPassword, @Email, @Age, @Country, @City, @Phone, @Gender, @Role, @DateTime)";
@@ -89,31 +89,6 @@ namespace DataSource
             {
                 _logger.LogError(exception, "Error deleting user from the database");
                 throw;
-            }
-        }
-
-        public async Task Update()
-        {
-            try
-            {
-                using (var connection = new NpgsqlConnection(_connectionString))
-                {
-                    var sql = "";
-                }
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-        }
-
-        public async Task<IEnumerable<User>> GetAll()
-        {
-            using (IDbConnection db = new NpgsqlConnection(_connectionString))
-            {
-                var sqlQuery = "SELECT * FROM users";
-                return await db.QueryAsync<User>(sqlQuery);
             }
         }
     }

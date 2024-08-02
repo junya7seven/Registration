@@ -3,16 +3,25 @@
 }
 
 <h2>Welcome to the Home Page</h2>
-
-@if (User.Identity.IsAuthenticated)
-{
-    <p>Hello, @ViewData["UserName"]! You are logged in.</p>
-}
-else
-{
-    <p>Welcome, Guest! Please <a asp-controller="Account" asp-action="Login">login</a> or <a asp-controller="Account" asp-action="Register">register</a>.</p>
-}
-
 <button>
     <a class="nav-link text-dark" asp-controller="Account" asp-action="Index">Index</a>
 </button>
+<form asp-controller="Home" asp-action="Rename" method="post">
+    <div>
+        <label for="NewLogin">New Login</label>
+        <input type="text" id="NewLogin" name="NewLogin" required />
+        <button type="submit">Rename Login</button>
+    </div>
+</form>
+
+<form asp-controller="Home" asp-action="ChangePassword" method="post">
+    <div>
+        <label for="NewPassword">New Password</label>
+        <input type="password" id="NewPassword" name="NewPassword" required />
+        <button type="submit">Change Password</button>
+    </div>
+</form>
+
+<p>Hello !!!</p>
+
+

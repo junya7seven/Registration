@@ -48,6 +48,7 @@ namespace UserRegistration.Controllers
             if (!ModelState.IsValid)
             {
                 ModelState.AddModelError("", "User validation failed");
+                Response.StatusCode = 400;
                 return View(model);
             }
             if (model.Login == model.Email)
@@ -56,6 +57,7 @@ namespace UserRegistration.Controllers
             }
             if (!await _userService.UserValidation(model))
             {
+                Response.StatusCode = 400;
                 ModelState.AddModelError(string.Empty, "User validation failed");
                 return View(model);
             }
@@ -65,6 +67,7 @@ namespace UserRegistration.Controllers
                 ModelState.AddModelError(string.Empty, "The username or password is already registered");
                 return View(model);
             }
+            Response.StatusCode = 200;
             return RedirectToAction("Login");
         }
 
@@ -79,6 +82,7 @@ namespace UserRegistration.Controllers
             var token = await _userService.AuthenticateUser(model);
             if (token == null)
             {
+                Response.StatusCode = 401;
                 ModelState.AddModelError(string.Empty, "Invalid login or password");
                 return View(model);
             }
@@ -100,7 +104,7 @@ namespace UserRegistration.Controllers
                 new ClaimsPrincipal(claimsIdentity),
                 new AuthenticationProperties { IsPersistent = true }
             );
-
+            Response.StatusCode = 200;
             return RedirectToAction("Index", "Home");
         }
 
